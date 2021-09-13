@@ -17,5 +17,15 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 =======
 # qr-code
-This project is a mobile app build using flutter and dart language. Features: -Scan QR code -View QR code link -Save QR link to a local database on mobile using MySQL database.  Packages used: -qr_code_scanner -url_launcher -sqflite -path_provider
+This project is a mobile app build using flutter and dart language. 
+Features: 
+-Scan QR code 
+-View QR code link 
+-Save QR link to a local database on mobile using MySQL database.
+
+Packages used: 
+-qr_code_scanner 
+-url_launcher 
+-sqflite 
+-path_provider
 >>>>>>> d4c3b23c0b2dea825ce377927592ea315436269b
