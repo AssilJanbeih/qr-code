@@ -122,14 +122,24 @@ class _ResultState extends State<Result> {
                 SizedBox(
                   height: 20,
                 ),
-                InkWell(
-                  hoverColor: Colors.red,
-                  child: new Text('Link: ' + newQR.toString(),
-                      maxLines: 5,
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                      )),
-                  onTap: () => launch(newQR.toString()),
+                // InkWell(
+                //   hoverColor: Colors.red,
+                //   child: new Text('Link: ' + newQR.toString(),
+                //       maxLines: 5,
+                //       style: TextStyle(
+                //         fontWeight: FontWeight.bold,
+                //       )),
+                //   onTap: () => launch(newQR.toString()),
+                // ),
+                ElevatedButton.icon(
+                  onPressed: () {
+                    launch(newQR.toString());
+                  },
+                  icon: Icon(
+                    Icons.language,
+                  ),
+                  style: buttonStyle,
+                  label: Text('Go To QRLink'),
                 ),
                 SizedBox(
                   height: 20,
